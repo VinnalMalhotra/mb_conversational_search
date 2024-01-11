@@ -1,0 +1,47 @@
+{
+  "name": "vector-search",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^14.0.4",
+    "@types/node": "^20.10.3",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "14.0.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^40.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@yext/chat-headless-react": "^0.6.1",
+    "@yext/chat-ui-react": "^0.8.4",
+    "@yext/search-headless-react": "^2.4.0",
+    "@yext/search-ui-react": "^1.4.0",
+    "clsx": "^2.0.0",
+    "framer-motion": "^6.5.1",
+    "markdown-to-jsx": "^7.3.2",
+    "next": "^12.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.12.0",
+    "react-loading-icons": "^1.1.0"
+  }
+}

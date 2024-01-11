@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.markdown-reverts ol,
+.markdown-reverts ul {
+  list-style: auto;
+  padding: revert;
+}
+
+.markdown-reverts a {
+  color: revert;
+  text-decoration: revert;
+}
+
+.markdown-reverts p {
+  margin: revert;
+}
+
+.yext-chat-message-bubble__bubble ol,
+.yext-chat-message-bubble__bubble ul {
+  list-style: auto;
+  padding: revert;
+}
+
+.yext-chat-message-bubble__bubble a {
+  color: revert;
+  text-decoration: revert;
+}
+
+.yext-chat-message-bubble__bubble p {
+  margin: revert;
+}
