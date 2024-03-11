@@ -133,7 +133,7 @@ function Inner(): JSX.Element {
                 <div className="w-full max-w-3xl flex flex-col">
                   <SearchBar
                     onSearch={handleSearch}
-                    placeholder="Ask a question"
+                    placeholder="Ask a question about CData"
                   />
                   <SpellCheck />
                 </div>
