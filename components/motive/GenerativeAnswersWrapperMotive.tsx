@@ -7,14 +7,14 @@ import { Result } from '@yext/search-headless-react';
 import { FaWandMagicSparkles } from 'react-icons/fa6';
 import { usePageContext } from '../../utils/usePageContext';
 import FollowUpButton from '../FollowUpButton';
-import SourcesMotive from './SourcesMotive';
+import SourcesCdata from './SourcesCdata';
 
 type Props = {
   answer: string;
   results: Result[];
 };
 
-export default function GenerativeAnswerWrapperMotive({
+export default function GenerativeAnswerWrapperCdata({
   answer,
   results,
 }: Props) {
@@ -50,7 +50,7 @@ export default function GenerativeAnswerWrapperMotive({
           <GrResources className="h-5 w-5" />
           <h3 className="text-lg">Sources</h3>
         </div>
-        <SourcesMotive sources={sourcesArray} />
+        <SourcesCdata sources={sourcesArray} />
       </div>
       <FollowUpButton />
     </div>
