@@ -1,20 +1,20 @@
-import React from 'react';
-import { sanitizeCitations } from '../../utils/citations/sanitizeCitations';
-import GenerativeAnswer from '../GenerativeAnswer';
-import { extractCitations } from '../../utils/citations/extractCitations';
-import { GrResources } from 'react-icons/gr';
-import { Result } from '@yext/search-headless-react';
-import { FaWandMagicSparkles } from 'react-icons/fa6';
-import { usePageContext } from '../../utils/usePageContext';
-import FollowUpButton from '../FollowUpButton';
-import SourcesMotive from './SourcesMotive';
+import React from "react";
+import { sanitizeCitations } from "../../utils/citations/sanitizeCitations";
+import GenerativeAnswer from "../GenerativeAnswer";
+import { extractCitations } from "../../utils/citations/extractCitations";
+import { GrResources } from "react-icons/gr";
+import { Result } from "@yext/search-headless-react";
+import { FaWandMagicSparkles } from "react-icons/fa6";
+import { usePageContext } from "../../utils/usePageContext";
+import FollowUpButton from "../FollowUpButton";
+import SourcescData from "./SourcescData";
 
 type Props = {
   answer: string;
   results: Result[];
 };
 
-export default function GenerativeAnswerWrapperMotive({
+export default function GenerativeAnswerWrappercData({
   answer,
   results,
 }: Props) {
@@ -50,7 +50,7 @@ export default function GenerativeAnswerWrapperMotive({
           <GrResources className="h-5 w-5" />
           <h3 className="text-lg">Sources</h3>
         </div>
-        <SourcesMotive sources={sourcesArray} />
+        <SourcescData sources={sourcesArray} />
       </div>
       <FollowUpButton />
     </div>

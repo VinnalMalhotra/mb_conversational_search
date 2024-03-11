@@ -1,12 +1,11 @@
-import React from 'react';
-import SearchResultHH from './SearchResultHH';
+import SearchResultcData from "./SearchResultcData";
 
-const SearchResultsHH = ({ results }) => {
+const SearchResultscData = ({ results }) => {
   return (
     <section className="flex flex-col">
       {results.map((result) => {
         return (
-          <SearchResultHH
+          <SearchResultcData
             key={`${result.id}-${result.index}`}
             result={result}
           />
@@ -16,4 +15,4 @@ const SearchResultsHH = ({ results }) => {
   );
 };
 
-export default SearchResultsHH;
+export default SearchResultscData;

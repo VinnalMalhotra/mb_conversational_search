@@ -3,7 +3,7 @@ import { usePageContext } from '../../utils/usePageContext';
 import { cn } from '../../utils/cn';
 import { motion } from 'framer-motion';
 
-const SearchResultMotive = ({ result }) => {
+const SearchResultcData = ({ result }) => {
   const { selectedCitation } = usePageContext();
   console.log(JSON.stringify(result));
 
@@ -50,4 +50,4 @@ const SearchResultMotive = ({ result }) => {
   );
 };
 
-export default SearchResultMotive;
+export default SearchResultcData;
